@@ -61,10 +61,6 @@ RUN mkdir /root/.ssh/
 COPY authorized_keys /root/.ssh/
 RUN chmod -R 600 /root/.ssh
 
-RUN mkdir /root/.aws
-COPY aws/config /root/.aws/
-COPY aws/credentials /root/.aws/
-
 CMD bash
 EXPOSE 8888
 EXPOSE 22
