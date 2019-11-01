@@ -1,6 +1,6 @@
 FROM nvidia/cuda:10.0-cudnn7-devel-ubuntu18.04
 
-LABEL maintainer "JUNTO SEGUROS <squadanalytics@juntoseguros.com>"
+LABEL maintainer "Rafael Tibaes <r@fael.nl>"
 
 ENV TERM linux
 ENV DEBIAN_FRONTEND noninteractive
